@@ -1,0 +1,567 @@
+<!DOCTYPE html><html lang="en-NZ"><head><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; img-src * data: blob:; media-src data:; connect-src 'none'; form-action 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KB's Bakery | Bakery &amp; Cafe on Gasson St, Christchurch</title>
+<meta name="description" content="KB's Bakery is a bakery and cafe on Gasson St, Christchurch. Call 03 379 1634 or email kim-buckley@xtra.co.nz to check opening hours or ask a question before you visit.">
+<link rel="canonical" href="https://www.kbs.co.nz/">
+<meta name="theme-color" content="#1b2430">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_NZ">
+<meta property="og:site_name" content="KB's Bakery">
+<meta property="og:title" content="KB's Bakery | Bakery &amp; Cafe on Gasson St, Christchurch">
+<meta property="og:description" content="KB's Bakery is a bakery and cafe on Gasson St, Christchurch. Call 03 379 1634 or email kim-buckley@xtra.co.nz to check opening hours or ask a question before you visit.">
+<meta property="og:url" content="https://tova-studio.github.io/kb-s-bakery/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "name": "KB's Bakery",
+  "url": "https://www.kbs.co.nz/",
+  "telephone": "+64 3 379 1634",
+  "email": "kim-buckley@xtra.co.nz",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Gasson St",
+    "addressLocality": "Christchurch",
+    "addressCountry": "NZ"
+  },
+  "areaServed": "Christchurch"
+}
+</script>
+<style>
+:root{
+  --ink:#1b2430;
+  --ink-soft:#3b4654;
+  --paper:#ffffff;
+  --cream:#f8f5ef;
+  --line:#e4ddd0;
+  --gold:#7a5a24;
+  --gold-light:#c9a96a;
+  --serif-display:"Cormorant Garamond", "Times New Roman", Georgia, serif;
+  --serif-body:"Source Serif 4", "Times New Roman", Georgia, serif;
+  --wrap:1140px;
+  --radius:4px;
+  --shadow:0 1px 2px rgba(27,36,48,.06), 0 12px 32px -12px rgba(27,36,48,.18);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--serif-body);font-size:1.0625rem;line-height:1.7;
+  overflow-x:hidden;
+}
+img,svg{max-width:100%;height:auto;display:block}
+a{color:var(--gold);text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{color:var(--ink)}
+:focus-visible{outline:3px solid #b5852f;outline-offset:3px;border-radius:2px}
+h1,h2,h3{font-family:var(--serif-display);color:var(--ink);line-height:1.12;margin:0 0 .5em;font-weight:600;letter-spacing:.005em}
+h1{font-size:clamp(2.25rem,5.6vw,4.1rem)}
+h2{font-size:clamp(1.9rem,3.8vw,2.85rem)}
+h3{font-size:clamp(1.35rem,2.2vw,1.6rem)}
+p{margin:0 0 1.1em}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 1.25rem}
+@media (min-width:700px){.wrap{padding:0 2rem}}
+.skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:#fff;padding:.75rem 1rem;z-index:100}
+.skip:focus{left:1rem;top:1rem;color:#fff}
+.eyebrow{
+  font-family:var(--serif-body);font-size:.82rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gold);font-weight:600;margin:0 0 1rem;display:flex;align-items:center;gap:.75rem;
+}
+.eyebrow::before{content:"";width:2.25rem;height:1px;background:var(--gold-light);flex:none}
+.lede{font-size:clamp(1.08rem,1.6vw,1.22rem);color:var(--ink-soft);max-width:36em}
+.ornament{display:flex;justify-content:center;margin:0 auto 1.25rem;color:var(--gold-light)}
+.ornament svg{width:140px}
+
+/* Buttons */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.55rem;
+  min-height:48px;padding:.7rem 1.5rem;border-radius:var(--radius);
+  font-family:var(--serif-body);font-weight:600;font-size:1rem;letter-spacing:.02em;
+  text-decoration:none;border:1px solid var(--ink);transition:background .2s,color .2s,box-shadow .2s,transform .2s;
+}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-primary{background:var(--ink);color:#fff}
+.btn-primary:hover{background:#2a3647;color:#fff;box-shadow:var(--shadow);transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:#fff}
+.btn-light{background:var(--cream);color:var(--ink);border-color:var(--cream)}
+.btn-light:hover{background:#fff;color:var(--ink)}
+.btn-outline-light{background:transparent;color:#fff;border-color:rgba(255,255,255,.55)}
+.btn-outline-light:hover{background:#fff;color:var(--ink)}
+.actions{display:flex;flex-wrap:wrap;gap:.75rem}
+
+/* Header */
+.site-header{
+  position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);
+  border-bottom:1px solid var(--line);transition:box-shadow .25s;
+}
+@supports (backdrop-filter:blur(8px)){.site-header{background:rgba(255,255,255,.88);backdrop-filter:blur(8px)}}
+.site-header.scrolled{box-shadow:0 6px 20px -12px rgba(27,36,48,.35)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:.75rem;min-height:72px}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--ink);min-height:44px}
+.monogram{
+  width:44px;height:44px;border-radius:50%;flex:none;display:grid;place-items:center;
+  border:1px solid var(--ink);box-shadow:inset 0 0 0 3px #fff, inset 0 0 0 4px var(--gold-light);
+  font-family:var(--serif-display);font-weight:700;font-size:1.05rem;letter-spacing:.04em;
+}
+.brand-name{display:flex;flex-direction:column;line-height:1.05}
+.brand-name strong{font-family:var(--serif-display);font-size:1.45rem;font-weight:700}
+.brand-name span{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-top:.2rem}
+.site-nav ul{list-style:none;margin:0;padding:0;display:flex;align-items:center;gap:.25rem}
+.site-nav a{
+  display:inline-flex;align-items:center;min-height:44px;padding:0 .8rem;
+  color:var(--ink);text-decoration:none;font-size:.98rem;position:relative;
+}
+.site-nav a::after{content:"";position:absolute;left:.8rem;right:.8rem;bottom:8px;height:1px;background:var(--gold-light);transform:scaleX(0);transition:transform .25s}
+.site-nav a:hover::after{transform:scaleX(1)}
+.header-actions{display:flex;align-items:center;gap:.5rem}
+.header-actions .btn{padding:.55rem 1.1rem;min-height:44px}
+.nav-toggle{
+  display:none;width:48px;height:48px;border:1px solid var(--line);background:#fff;border-radius:var(--radius);
+  cursor:pointer;align-items:center;justify-content:center;color:var(--ink);
+}
+.nav-toggle svg{width:22px;height:22px}
+.nav-toggle .icon-close{display:none}
+.nav-toggle[aria-expanded="true"] .icon-open{display:none}
+.nav-toggle[aria-expanded="true"] .icon-close{display:block}
+.call-short{display:none}
+@media (max-width:900px){
+  .nav-toggle{display:inline-flex}
+  .site-nav{
+    position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);
+    box-shadow:0 18px 30px -18px rgba(27,36,48,.35);display:none;
+  }
+  .site-nav.is-open{display:block}
+  .site-nav ul{flex-direction:column;align-items:stretch;padding:.5rem 1.25rem 1rem}
+  .site-nav li+li{border-top:1px solid var(--line)}
+  .site-nav a{width:100%;padding:.4rem 0;min-height:52px;font-size:1.1rem}
+  .site-nav a::after{display:none}
+  .call-long{display:none}
+  .call-short{display:inline}
+}
+@media (max-width:400px){
+  .brand-name span{display:none}
+  .brand-name strong{font-size:1.25rem}
+  .monogram{width:40px;height:40px;font-size:.95rem}
+  .header-actions .btn{padding:.5rem .8rem}
+}
+
+/* Sections */
+section{scroll-margin-top:84px}
+.section{padding:clamp(3.5rem,8vw,6.5rem) 0}
+.section-cream{background:var(--cream);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.section-head{text-align:center;max-width:44rem;margin:0 auto clamp(2rem,4vw,3rem)}
+.section-head .eyebrow,.eyebrow.center{justify-content:center}
+.section-head .eyebrow::after,.eyebrow.center::after{content:"";width:2.25rem;height:1px;background:var(--gold-light);flex:none}
+.section-head p{color:var(--ink-soft)}
+
+/* Hero */
+.hero{
+  background:
+    radial-gradient(1200px 500px at 85% 20%, rgba(201,169,106,.16), transparent 60%),
+    linear-gradient(180deg,#fff 0%,var(--cream) 100%);
+  border-bottom:1px solid var(--line);
+  padding:clamp(2rem,6vw,5.5rem) 0 clamp(2.75rem,7vw,6rem);
+}
+.hero-grid{display:grid;gap:2.25rem;align-items:center}
+@media (min-width:860px){.hero-grid{grid-template-columns:1.25fr .75fr;gap:3.5rem}}
+.hero h1 .h1-sub{display:block;color:var(--gold);font-style:italic;font-weight:500;margin-top:.1em}
+.hero .lede{margin-bottom:1.75rem}
+.hero-facts{
+  display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;margin:1.75rem 0 0;padding:1.1rem 0 0;border-top:1px solid var(--line);
+  list-style:none;font-size:.98rem;color:var(--ink-soft);
+}
+.hero-facts li{display:flex;align-items:center;gap:.5rem}
+.hero-facts svg{width:18px;height:18px;color:var(--gold);flex:none}
+.emblem{max-width:360px;margin:0 auto;filter:drop-shadow(0 18px 30px rgba(27,36,48,.14))}
+@media (max-width:859px){.emblem{max-width:200px}}
+
+/* About */
+.about-grid{display:grid;gap:2.5rem;align-items:start}
+@media (min-width:860px){.about-grid{grid-template-columns:1fr 1fr;gap:4.5rem}}
+.about-grid p{color:var(--ink-soft)}
+.panel{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+  padding:clamp(1.75rem,4vw,2.75rem);position:relative;
+}
+.panel::before{content:"";position:absolute;inset:8px;border:1px solid var(--line);pointer-events:none;border-radius:2px}
+.panel h3{margin-bottom:1rem}
+.detail-list{list-style:none;margin:0;padding:0}
+.detail-list li{display:flex;gap:.85rem;padding:.85rem 0;border-top:1px solid var(--line);align-items:flex-start}
+.detail-list li:first-child{border-top:0;padding-top:0}
+.detail-list svg{width:20px;height:20px;color:var(--gold);flex:none;margin-top:.3rem}
+.detail-list strong{display:block;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.detail-list a{color:var(--ink);word-break:break-word}
+
+/* Cards */
+.cards{display:grid;gap:1.25rem}
+@media (min-width:760px){.cards{grid-template-columns:repeat(3,1fr);gap:1.5rem}}
+.card{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:2rem 1.75rem;
+  box-shadow:0 1px 2px rgba(27,36,48,.05);transition:box-shadow .25s,transform .25s;display:flex;flex-direction:column;
+}
+.card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
+.card-icon{
+  width:56px;height:56px;border-radius:50%;display:grid;place-items:center;margin-bottom:1.25rem;
+  border:1px solid var(--gold-light);color:var(--gold);background:var(--cream);
+}
+.card-icon svg{width:26px;height:26px}
+.card p{color:var(--ink-soft);flex:1}
+.card a.more{font-weight:600;display:inline-flex;align-items:center;min-height:44px;word-break:break-word}
+
+/* FAQ */
+.faq{max-width:52rem;margin:0 auto}
+.faq-item{padding:1.6rem 0;border-top:1px solid var(--line)}
+.faq-item:last-child{border-bottom:1px solid var(--line)}
+.faq-item h3{display:flex;gap:.85rem;align-items:baseline;margin-bottom:.5rem}
+.faq-item h3::before{content:"Q.";font-size:1rem;color:var(--gold);font-family:var(--serif-body);font-weight:600;flex:none}
+.faq-item p{color:var(--ink-soft);margin:0;padding-left:2.1rem}
+@media (max-width:480px){.faq-item p{padding-left:0}}
+
+/* Hours */
+.hours-card{max-width:46rem;margin:0 auto;text-align:center}
+.hours-card .panel{padding:clamp(2rem,5vw,3.25rem)}
+.hours-card .intro{color:var(--ink-soft)}
+.hours-row{
+  display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem 1rem;align-items:baseline;
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:1.1rem 0;margin:1.5rem 0;text-align:left;
+}
+.hours-row span:first-child{font-family:var(--serif-display);font-size:1.35rem;font-weight:600}
+.hours-row span:last-child{color:var(--ink-soft)}
+.hours-card .actions{justify-content:center}
+
+/* Contact */
+.contact{background:var(--ink);color:#e9e4da;position:relative;overflow:hidden}
+.contact::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(800px 400px at 10% 0%, rgba(201,169,106,.14), transparent 60%);
+}
+.contact .wrap{position:relative}
+.contact h2,.contact h3{color:#fff}
+.contact .eyebrow{color:var(--gold-light)}
+.contact .eyebrow::before,.contact .eyebrow::after{background:var(--gold-light)}
+.contact .section-head p{color:#d6d0c4}
+.contact-grid{display:grid;gap:1.25rem}
+@media (min-width:700px){.contact-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1000px){.contact-grid{grid-template-columns:repeat(4,1fr)}}
+.contact-card{
+  border:1px solid rgba(201,169,106,.35);border-radius:var(--radius);padding:1.75rem 1.5rem;
+  background:rgba(255,255,255,.03);
+}
+.contact-card svg{width:26px;height:26px;color:var(--gold-light);margin-bottom:1rem}
+.contact-card h3{font-size:1.4rem;margin-bottom:.4rem}
+.contact-card p{margin:0 0 .25rem;color:#d6d0c4}
+.contact-card a{color:#fff;display:inline-flex;align-items:center;min-height:44px;word-break:break-word}
+.contact-card a:hover{color:var(--gold-light)}
+.contact :focus-visible{outline-color:var(--gold-light)}
+.contact .actions{justify-content:center;margin-top:2.5rem}
+
+/* Footer */
+.site-footer{background:#141b24;color:#c9c3b8;padding:2.5rem 0;font-size:.95rem}
+.footer-inner{display:flex;flex-wrap:wrap;gap:1rem 2rem;justify-content:space-between;align-items:center}
+.site-footer a{color:#fff;display:inline-flex;align-items:center;min-height:44px;word-break:break-word}
+.site-footer a:hover{color:var(--gold-light)}
+.site-footer :focus-visible{outline-color:var(--gold-light)}
+.footer-brand{font-family:var(--serif-display);font-size:1.5rem;color:#fff;font-weight:600}
+.footer-links{display:flex;flex-wrap:wrap;gap:0 1.25rem;list-style:none;margin:0;padding:0}
+.credit{width:100%;border-top:1px solid rgba(255,255,255,.12);padding-top:1.25rem;display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem;color:#aaa396;font-size:.875rem}
+</style>
+<meta name="robots" content="noindex, nofollow"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="KB's Bakery | Bakery &amp; Cafe on Gasson St, Christchurch"><meta name="twitter:description" content="KB's Bakery is a bakery and cafe on Gasson St, Christchurch. Call 03 379 1634 or email kim-buckley@xtra.co.nz to check opening hours or ask a question before you visit."><script type="application/ld+json">{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"KB's Bakery","url":"https://tova-studio.github.io/kb-s-bakery/","telephone":"+6433791634","email":"kim-buckley@xtra.co.nz","address":{"@type":"PostalAddress","streetAddress":"Gasson St","addressLocality":"Christchurch","addressCountry":"NZ"},"areaServed":{"@type":"City","name":"Christchurch"}}</script></head>
+<body><div style="background:#1b2430;color:#fff;text-align:center;font:13px/1.4 system-ui,sans-serif;padding:8px 12px;position:relative;z-index:99999">Website concept prepared by Tova Digital for KB's Bakery. This is a preview, not a live website.</div>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="KB's Bakery, back to top">
+      <span class="monogram" aria-hidden="true">KB</span>
+      <span class="brand-name"><strong>KB's Bakery</strong><span>Christchurch</span></span>
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#offer">What we offer</a></li>
+        <li><a href="#questions">Questions</a></li>
+        <li><a href="#hours">Hours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-primary" href="tel:+6433791634" aria-label="Call KB's Bakery on 03 379 1634">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg>
+        <span class="call-long">03 379 1634</span><span class="call-short">Call</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"></path></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Bakery &amp; Cafe · Christchurch</p>
+        <h1 id="hero-title">KB's Bakery <span class="h1-sub">Bakery &amp; Cafe in Christchurch</span></h1>
+        <p class="lede">KB's Bakery is a bakery and cafe on Gasson St, Christchurch. Call or email to check opening hours, ask a question or get directions before you visit.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="tel:+6433791634">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg>
+            Call 03 379 1634
+          </a>
+          <a class="btn btn-ghost" href="mailto:kim-buckley@xtra.co.nz?subject=Enquiry%20for%20KB's%20Bakery">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"></rect><path d="M3.5 6l8.5 7 8.5-7"></path></svg>
+            Email us
+          </a>
+        </div>
+        <ul class="hero-facts">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>Gasson St, Christchurch</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>Phone to confirm today's hours</li>
+        </ul>
+      </div>
+      <div class="emblem">
+        <svg viewBox="0 0 320 320" role="img" aria-labelledby="emblem-title" width="360" height="360">
+          <title id="emblem-title">Illustrated wheat-sheaf emblem for KB's Bakery, a bakery and cafe on Gasson St, Christchurch</title>
+          <defs>
+            <path id="ring" d="M160,160 m-116,0 a116,116 0 1,1 232,0 a116,116 0 1,1 -232,0"></path>
+            <g id="stalk">
+              <path d="M160 238 C160 200 160 150 160 92" stroke="#7a5a24" stroke-width="2.4" fill="none" stroke-linecap="round"></path>
+              <g fill="#c9a96a" stroke="#7a5a24" stroke-width="1.1">
+                <ellipse cx="160" cy="88" rx="5" ry="11"></ellipse>
+                <ellipse cx="152" cy="104" rx="5" ry="11" transform="rotate(-28 152 104)"></ellipse>
+                <ellipse cx="168" cy="104" rx="5" ry="11" transform="rotate(28 168 104)"></ellipse>
+                <ellipse cx="152" cy="122" rx="5" ry="11" transform="rotate(-28 152 122)"></ellipse>
+                <ellipse cx="168" cy="122" rx="5" ry="11" transform="rotate(28 168 122)"></ellipse>
+                <ellipse cx="152" cy="140" rx="5" ry="11" transform="rotate(-28 152 140)"></ellipse>
+                <ellipse cx="168" cy="140" rx="5" ry="11" transform="rotate(28 168 140)"></ellipse>
+              </g>
+            </g>
+          </defs>
+          <circle cx="160" cy="160" r="152" fill="#f8f5ef" stroke="#c9a96a" stroke-width="2"></circle>
+          <circle cx="160" cy="160" r="140" fill="none" stroke="#1b2430" stroke-width="1"></circle>
+          <text font-family="Source Serif 4, Times New Roman, serif" font-size="13" font-weight="600" letter-spacing="2" fill="#1b2430">
+            <textPath href="#ring" textLength="720" lengthAdjust="spacing">KB'S BAKERY · BAKERY &amp; CAFE · GASSON ST · CHRISTCHURCH ·</textPath>
+          </text>
+          <circle cx="160" cy="160" r="98" fill="#ffffff" stroke="#c9a96a" stroke-width="1.5"></circle>
+          <circle cx="160" cy="160" r="92" fill="none" stroke="#e4ddd0" stroke-width="1"></circle>
+          <g transform="translate(32 14) scale(.8)">
+            <use href="#stalk" transform="rotate(-20 160 238)"></use>
+            <use href="#stalk" transform="rotate(20 160 238)"></use>
+            <use href="#stalk"></use>
+            <path d="M140 206 Q160 215 180 206" stroke="#1b2430" stroke-width="2.4" fill="none" stroke-linecap="round"></path>
+          </g>
+          <path d="M128 214h64" stroke="#c9a96a" stroke-width="1"></path>
+          <text x="160" y="242" text-anchor="middle" font-family="Cormorant Garamond, Times New Roman, serif" font-size="28" font-weight="700" fill="#1b2430" letter-spacing="2">KB's</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="wrap about-grid">
+      <div>
+        <p class="eyebrow">About us</p>
+        <h2 id="about-title">A bakery and cafe on Gasson St, Christchurch</h2>
+        <p>KB's Bakery is a bakery and cafe in Christchurch, on Gasson St. Whether you're a regular or stopping by for the first time, it's a local place for something from the bakery and a cafe break in your day.</p>
+        <p>We've kept this page simple. It shows where to find us, how to reach us and how to check we're open before you head out. If you'd like to know anything else, the quickest way is to call us on <a href="tel:+6433791634">03 379 1634</a>.</p>
+        <p>If you'd rather write, email <a href="mailto:kim-buckley@xtra.co.nz">kim-buckley@xtra.co.nz</a> and include the best number to reach you on.</p>
+      </div>
+      <aside class="panel" aria-label="KB's Bakery at a glance">
+        <h3>At a glance</h3>
+        <ul class="detail-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 11h16v8a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"></path><path d="M4 11a8 5 0 0 1 16 0"></path></svg>
+            <div><strong>What we are</strong>A bakery and cafe</div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>
+            <div><strong>Where</strong><a href="https://www.google.com/maps/search/?api=1&amp;query=KB%27s+Bakery+Gasson+St+Christchurch" target="_blank" rel="noopener">Gasson St, Christchurch</a></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg>
+            <div><strong>Phone</strong><a href="tel:+6433791634">03 379 1634</a></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"></rect><path d="M3.5 6l8.5 7 8.5-7"></path></svg>
+            <div><strong>Email</strong><a href="mailto:kim-buckley@xtra.co.nz">kim-buckley@xtra.co.nz</a></div>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-cream" id="offer" aria-labelledby="offer-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Bakery &amp; cafe</p>
+        <h2 id="offer-title">What can you expect at KB's Bakery?</h2>
+        <p>KB's Bakery is a Christchurch bakery and cafe. Here's how to make the most of your visit.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V10l7-5 7 5v11"></path><path d="M10 21v-5h4v5"></path></svg></div>
+          <h3>Drop in on Gasson St</h3>
+          <p>Come by KB's Bakery on Gasson St in Christchurch to see what's in the bakery today and stop for a cafe break.</p>
+          <a class="more" href="https://www.google.com/maps/search/?api=1&amp;query=KB%27s+Bakery+Gasson+St+Christchurch" target="_blank" rel="noopener">Get directions</a>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg></div>
+          <h3>Call ahead</h3>
+          <p>Looking for something in particular, or want to check we're open? Call before you head over to save yourself a wasted trip.</p>
+          <a class="more" href="tel:+6433791634">Call 03 379 1634</a>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="1.5"></rect><path d="M3.5 6l8.5 7 8.5-7"></path></svg></div>
+          <h3>Email a question</h3>
+          <p>If your question can wait, send us an email. Include your name and the best number to reach you on.</p>
+          <a class="more" href="mailto:kim-buckley@xtra.co.nz?subject=Question%20for%20KB's%20Bakery">kim-buckley@xtra.co.nz</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="questions" aria-labelledby="questions-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="ornament" aria-hidden="true">
+          <svg viewBox="0 0 140 20" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M0 10h52M88 10h52"></path><path d="M70 2l8 8-8 8-8-8z"></path><circle cx="56" cy="10" r="1.6" fill="currentColor"></circle><circle cx="84" cy="10" r="1.6" fill="currentColor"></circle></svg>
+        </div>
+        <h2 id="questions-title">Questions customers ask</h2>
+        <p>Quick answers to common questions about KB's Bakery in Christchurch.</p>
+      </div>
+      <div class="faq">
+        <div class="faq-item">
+          <h3>Where is KB's Bakery?</h3>
+          <p>KB's Bakery is on Gasson St, Christchurch. <a href="https://www.google.com/maps/search/?api=1&amp;query=KB%27s+Bakery+Gasson+St+Christchurch" target="_blank" rel="noopener">Open the map</a> for directions from wherever you are.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Is KB's Bakery a bakery or a cafe?</h3>
+          <p>Both. KB's Bakery is a bakery and cafe in Christchurch, on Gasson St.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What are KB's Bakery's opening hours?</h3>
+          <p>Please phone <a href="tel:+6433791634">03 379 1634</a> to check today's opening hours before you visit. It's the most reliable way to be sure we're open.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How do I contact KB's Bakery?</h3>
+          <p>Call <a href="tel:+6433791634">03 379 1634</a> or email <a href="mailto:kim-buckley@xtra.co.nz">kim-buckley@xtra.co.nz</a>. For anything urgent, a phone call is quickest.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Can I ask about something before I come in?</h3>
+          <p>Of course. Call or email with your question before you make the trip to Gasson St.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-cream" id="hours" aria-labelledby="hours-title">
+    <div class="wrap hours-card">
+      <div class="panel">
+        <p class="eyebrow center">Opening hours</p>
+        <h2 id="hours-title">When is KB's Bakery open?</h2>
+        <p class="intro">We don't want you to come all the way to Gasson St and find us closed. Please give us a quick call to check our current opening hours.</p>
+        <div class="hours-row">
+          <span>Opening hours</span>
+          <span>Phone <a href="tel:+6433791634">03 379 1634</a> to confirm</span>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="tel:+6433791634">Call to check hours</a>
+          <a class="btn btn-ghost" href="mailto:kim-buckley@xtra.co.nz?subject=Opening%20hours%20enquiry">Email us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Visit or get in touch</h2>
+        <p>KB's Bakery, Gasson St, Christchurch. Call, email or drop in.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg>
+          <h3>Phone</h3>
+          <a href="tel:+6433791634">03 379 1634</a>
+        </div>
+        <div class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"></rect><path d="M3.5 6l8.5 7 8.5-7"></path></svg>
+          <h3>Email</h3>
+          <a href="mailto:kim-buckley@xtra.co.nz">kim-buckley@xtra.co.nz</a>
+        </div>
+        <div class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>
+          <h3>Address</h3>
+          <p>Gasson St, Christchurch</p>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=KB%27s+Bakery+Gasson+St+Christchurch" target="_blank" rel="noopener">View on map</a>
+        </div>
+        <div class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+          <h3>Hours</h3>
+          <p>Please phone to confirm current opening hours.</p>
+        </div>
+      </div>
+      <div class="actions">
+        <a class="btn btn-light" href="tel:+6433791634">Call 03 379 1634</a>
+        <a class="btn btn-outline-light" href="mailto:kim-buckley@xtra.co.nz?subject=Enquiry%20for%20KB's%20Bakery">Send an email</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <div class="footer-brand">KB's Bakery</div>
+      <div>Bakery &amp; cafe · Gasson St, Christchurch</div>
+    </div>
+    <ul class="footer-links">
+      <li><a href="tel:+6433791634">03 379 1634</a></li>
+      <li><a href="mailto:kim-buckley@xtra.co.nz">kim-buckley@xtra.co.nz</a></li>
+      <li><a href="#top">Back to top</a></li>
+    </ul>
+    <div class="credit">
+      <span>© 2026 KB's Bakery, Christchurch</span>
+      <span>Website by Tova Digital</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var toggle=document.querySelector('.nav-toggle');
+  var nav=document.getElementById('site-nav');
+  var header=document.getElementById('siteHeader');
+  function setOpen(open){
+    toggle.setAttribute('aria-expanded',String(open));
+    toggle.setAttribute('aria-label',open?'Close menu':'Open menu');
+    nav.classList.toggle('is-open',open);
+  }
+  toggle.addEventListener('click',function(){
+    setOpen(toggle.getAttribute('aria-expanded')!=='true');
+  });
+  nav.addEventListener('click',function(e){
+    if(e.target.closest('a')) setOpen(false);
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape' && nav.classList.contains('is-open')){setOpen(false);toggle.focus();}
+  });
+  window.addEventListener('resize',function(){
+    if(window.innerWidth>900) setOpen(false);
+  });
+  function onScroll(){header.classList.toggle('scrolled',window.scrollY>8);}
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
+})();
+</script>
+
+</body></html>

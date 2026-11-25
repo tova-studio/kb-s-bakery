@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "source": "tova-explore",
+  "generatedAt": "2026-11-25T03:19:05.384Z",
+  "slug": "kbs",
+  "name": "KB's Bakery",
+  "city": "Christchurch",
+  "industry": {
+    "label": "Cafes",
+    "niche": "cafes",
+    "group": "Food & hospitality"
+  },
+  "contact": {
+    "phone": "+6433791634",
+    "email": "kim-buckley@xtra.co.nz",
+    "address": "Gasson St"
+  },
+  "social": {},
+  "about": {},
+  "before": {
+    "url": "http://www.kbs.co.nz",
+    "domain": "kbs.co.nz",
+    "finalUrl": "http://www.kbs.co.nz/",
+    "pages": 2,
+    "score": 57,
+    "assessedAt": "2026-11-23T12:55:53.973Z",
+    "issues": [
+      {
+        "id": "no-https",
+        "title": "Not served over HTTPS",
+        "evidence": "Final URL is http://www.kbs.co.nz/. Browsers label this site \"Not secure\"."
+      },
+      {
+        "id": "no-contact-path",
+        "title": "No easy way to get in touch",
+        "evidence": "No tap-to-call link and no enquiry form on the homepage."
+      },
+      {
+        "id": "weak-title",
+        "title": "Weak or missing page title",
+        "evidence": "No <title> found, hurting Google search appearance."
+      },
+      {
+        "id": "no-meta-desc",
+        "title": "No search description",
+        "evidence": "No meta description, so Google chooses random page text for search results."
+      },
+      {
+        "id": "no-schema",
+        "title": "No local-business search markup",
+        "evidence": "No structured data, so Google has less to show for the business."
+      }
+    ],
+    "screenshot": "screenshots/before-desktop.jpg"
+  },
+  "ours": {
+    "pagesUrl": "https://tova-studio.github.io/kb-s-bakery/",
+    "repoUrl": "https://github.com/tova-studio/kb-s-bakery",
+    "generator": "claude",
+    "screenshot": "screenshots/after-desktop.jpg",
+    "publishedAt": "2026-11-25T03:19:05.385Z"
+  }
+}
